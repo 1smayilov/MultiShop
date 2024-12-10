@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "+1s6zFD5I9HtVEcWUeX2TRGbKygBcrroF+XB1ZId84zHYNA54ryi6Nu/cTFeb+S6yE9PihcoyPc2wv/UCP3hqQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Etimad\\Desktop\\MultiShop\\MultiShop\\Services\\Order\\Core\\MultiShop.Order.Domain\\MultiShop.Order.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Etimad\\.nuget\\packages\\mediatr\\12.4.1\\mediatr.12.4.1.nupkg.sha512",
+    "C:\\Users\\Etimad\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\Etimad\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.0.0\\mediatr.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
+    "C:\\Users\\Etimad\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

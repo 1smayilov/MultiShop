@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "jWwA3Rw8wM+G4e+ubYXGHPgLbKYto4OfpVLa7J4cVaf/N2PwiaSbSagcLp4O4vhrpdboqlQPaVle5Ei/w5pzvQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Etimad\\Desktop\\MultiShop\\MultiShop\\Services\\Order\\Core\\MultiShop.Order.Application\\MultiShop.Order.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Etimad\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
+    "C:\\Users\\Etimad\\.nuget\\packages\\mediatr\\12.4.1\\mediatr.12.4.1.nupkg.sha512",
+    "C:\\Users\\Etimad\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\Etimad\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.0.0\\mediatr.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
+    "C:\\Users\\Etimad\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\Etimad\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
