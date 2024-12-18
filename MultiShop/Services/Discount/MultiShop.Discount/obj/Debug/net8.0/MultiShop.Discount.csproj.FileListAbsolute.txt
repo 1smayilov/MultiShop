@@ -144,3 +144,4 @@ C:\Users\Etimad\Desktop\MultiShop\MultiShop\Services\Discount\MultiShop.Discount
 C:\Users\Etimad\Desktop\MultiShop\MultiShop\Services\Discount\MultiShop.Discount\obj\Debug\net8.0\MultiShop.Discount.pdb
 C:\Users\Etimad\Desktop\MultiShop\MultiShop\Services\Discount\MultiShop.Discount\obj\Debug\net8.0\MultiShop.Discount.genruntimeconfig.cache
 C:\Users\Etimad\Desktop\MultiShop\MultiShop\Services\Discount\MultiShop.Discount\obj\Debug\net8.0\ref\MultiShop.Discount.dll
+C:\Users\Etimad\Desktop\MultiShop\MultiShop\Services\Discount\MultiShop.Discount\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

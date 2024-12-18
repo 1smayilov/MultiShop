@@ -1,4 +1,5 @@
 ﻿using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using MultiShop.Order.Application.Features.Mediator.Commands.OrderingCommands;
@@ -6,6 +7,7 @@ using MultiShop.Order.Application.Features.Mediator.Queries.OrderingQueries;
 
 namespace MultiShop.Order.WebApi.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class OrderingController : ControllerBase
@@ -35,21 +37,21 @@ namespace MultiShop.Order.WebApi.Controllers
         public async Task<IActionResult> CreateOrdering(CreateOrderingCommand command)
         {
             await _mediator.Send(command);
-            return Ok("Sifariş əlavə edildi");
+            return Ok("Sifariş uğurla əlavə edildi");
         }
 
         [HttpDelete]
         public async Task<IActionResult> RemoveOrdering(int id)
         {
             await _mediator.Send(new  RemoveOrderingCommand(id));
-            return Ok("Sifariş silindi");
+            return Ok("Sifariş uğurla silindi");
         }
 
         [HttpPut]
         public async Task<IActionResult> UpdateOrdering(UpdateOrderingCommand command)
         {
             await _mediator.Send(command);
-            return Ok("Sifariş dəyişdirildi"); 
+            return Ok("Sifariş uğurla dəyişdirildi"); 
         }
 
     }

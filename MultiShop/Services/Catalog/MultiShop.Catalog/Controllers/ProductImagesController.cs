@@ -1,53 +1,55 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using MultiShop.Catalog.Dtos.ProductDtos;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
 using MultiShop.Catalog.Dtos.ProductImageDtos;
-using MultiShop.Catalog.Entities;
 using MultiShop.Catalog.Services.ProductImageServices;
 
 namespace MultiShop.Catalog.Controllers
 {
-    public class ProductImagesController : Controller
+    [Authorize]
+    [Route("api/[controller]")]
+    [ApiController]
+    public class ProductImagesController : ControllerBase
     {
         private readonly IProductImageService _productImageService;
-
-        public ProductImagesController(IProductImageService productImageService)
+        public ProductImagesController(IProductImageService ProductImageService)
         {
-            _productImageService = productImageService;
+            _productImageService = ProductImageService;
         }
 
-        [HttpGet("ProductImage")]
+        [HttpGet]
         public async Task<IActionResult> ProductImageList()
         {
             var values = await _productImageService.GetAllProductImageAsync();
             return Ok(values);
         }
 
-        [HttpGet("ProductImage{id}")]
+        [HttpGet("{id}")]
         public async Task<IActionResult> GetProductImageById(string id)
         {
             var values = await _productImageService.GetByIdProductImageAsync(id);
             return Ok(values);
         }
 
-        [HttpPost("ProductImage")]
+        [HttpPost]
         public async Task<IActionResult> CreateProductImage(CreateProductImageDto createProductImageDto)
         {
             await _productImageService.CreateProductImageAsync(createProductImageDto);
-            return Ok("Məhsul şəkilləri əlavə olundu");
+            return Ok("Məhsul şəkilləri uğurla əlavə olundu");
         }
 
-        [HttpDelete("ProductImage")]
+        [HttpDelete]
         public async Task<IActionResult> DeleteProductImage(string id)
         {
             await _productImageService.DeleteProductImageAsync(id);
-            return Ok("Məhsul şəkilləri silindi");
+            return Ok("Məhsul şəkilləri uğurla silindi");
         }
 
-        [HttpPut("ProductImage")]
+        [HttpPut]
         public async Task<IActionResult> UpdateProductImage(UpdateProductImageDto updateProductImageDto)
         {
             await _productImageService.UpdateProductImageAsync(updateProductImageDto);
-            return Ok("Məhsul şəkilləri güncəlləndi");
+            return Ok("Məhsul şəkilləri uğurla güncəlləndi");
         }
     }
 }

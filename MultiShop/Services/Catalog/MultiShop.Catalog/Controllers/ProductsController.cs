@@ -1,51 +1,56 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
 using MultiShop.Catalog.Dtos.ProductDtos;
 using MultiShop.Catalog.Services.ProductServices;
 
 namespace MultiShop.Catalog.Controllers
 {
-    public class ProductsController : Controller
+    [Authorize]
+    [Route("api/[controller]")]
+    [ApiController]
+    public class ProductsController : ControllerBase
     {
         private readonly IProductService _productService;
-
-        public ProductsController(IProductService productService)
+        public ProductsController(IProductService ProductService)
         {
-            _productService = productService;
+            _productService = ProductService;
         }
 
-        [HttpGet("Product")]
+        [HttpGet]
         public async Task<IActionResult> ProductList()
         {
             var values = await _productService.GetAllProductAsync();
             return Ok(values);
         }
 
-        [HttpGet("Product{id}")]
+        [HttpGet("{id}")]
         public async Task<IActionResult> GetProductById(string id)
         {
             var values = await _productService.GetByIdProductAsync(id);
             return Ok(values);
         }
 
-        [HttpPost("Product")]
+        [HttpPost]
         public async Task<IActionResult> CreateProduct(CreateProductDto createProductDto)
         {
             await _productService.CreateProductAsync(createProductDto);
-            return Ok("Məhsul əlavə olundu");
+            return Ok("Məhsul uğurla əlavə olundu");
         }
 
-        [HttpDelete("Product")]
+        [HttpDelete]
         public async Task<IActionResult> DeleteProduct(string id)
         {
             await _productService.DeleteProductAsync(id);
-            return Ok("Məhsul silindi");
+            return Ok("Məhsul uğurla silindi");
         }
 
-        [HttpPut("Product")]
+        [HttpPut]
         public async Task<IActionResult> UpdateProduct(UpdateProductDto updateProductDto)
         {
             await _productService.UpdateProductAsync(updateProductDto);
-            return Ok("Məhsul güncəlləndi");
+            return Ok("Məhsul uğurla güncəlləndi");
         }
+
     }
 }
