@@ -227,3 +227,5 @@ C:\Users\Etimad\Desktop\MultiShop\MultiShop\Frontends\MultiShop.WebUI\obj\Debug\
 C:\Users\Etimad\Desktop\MultiShop\MultiShop\Frontends\MultiShop.WebUI\obj\Debug\net8.0\MultiShop.WebUI.pdb
 C:\Users\Etimad\Desktop\MultiShop\MultiShop\Frontends\MultiShop.WebUI\obj\Debug\net8.0\MultiShop.WebUI.genruntimeconfig.cache
 C:\Users\Etimad\Desktop\MultiShop\MultiShop\Frontends\MultiShop.WebUI\obj\Debug\net8.0\ref\MultiShop.WebUI.dll
+C:\Users\Etimad\Desktop\MultiShop\MultiShop\Frontends\MultiShop.WebUI\bin\Debug\net8.0\MultiShop.DtoLayer.dll
+C:\Users\Etimad\Desktop\MultiShop\MultiShop\Frontends\MultiShop.WebUI\bin\Debug\net8.0\MultiShop.DtoLayer.pdb

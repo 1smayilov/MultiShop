@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MultiShop.Order.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ab0547959fa30e94ec21ae160874ab4b3e8cb999")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5cf5f1c1f0f04e9f200dbd70c348283865cab981")]
 [assembly: System.Reflection.AssemblyProductAttribute("MultiShop.Order.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MultiShop.Order.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

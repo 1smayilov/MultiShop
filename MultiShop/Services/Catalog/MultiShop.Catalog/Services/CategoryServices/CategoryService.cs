@@ -13,11 +13,8 @@ public class CategoryService : ICategoryService
 
     public CategoryService(IMapper mapper, IDatabaseSettings _databaseSettings)
     {
-        // DB yə bağlantı
         var client = new MongoClient(_databaseSettings.ConnectionString);
-        // Database
         var database = client.GetDatabase(_databaseSettings.DatabaseName);
-        // Table
         _categoryCollection = database.GetCollection<Category>(_databaseSettings.CategoryCollectionName);
         _mapper = mapper;
     }

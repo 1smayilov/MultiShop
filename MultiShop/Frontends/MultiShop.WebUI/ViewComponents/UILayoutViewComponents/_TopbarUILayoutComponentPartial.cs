@@ -10,3 +10,4 @@ namespace MultiShop.WebUI.ViewComponents.UILayoutViewComponents
         }
     }
 }
+// ₼

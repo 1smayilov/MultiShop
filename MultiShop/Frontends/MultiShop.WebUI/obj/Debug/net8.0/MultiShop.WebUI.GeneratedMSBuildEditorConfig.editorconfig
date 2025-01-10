@@ -26,6 +26,134 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Etimad\Desktop\MultiShop\MultiShop\Frontends\MultiShop.WebUI
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/Etimad/Desktop/MultiShop/MultiShop/Frontends/MultiShop.WebUI/Areas/Admin/Views/About/CreateAbout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWJvdXRcQ3JlYXRlQWJvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Etimad/Desktop/MultiShop/MultiShop/Frontends/MultiShop.WebUI/Areas/Admin/Views/About/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWJvdXRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Etimad/Desktop/MultiShop/MultiShop/Frontends/MultiShop.WebUI/Areas/Admin/Views/About/UpdateAbout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWJvdXRcVXBkYXRlQWJvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Etimad/Desktop/MultiShop/MultiShop/Frontends/MultiShop.WebUI/Areas/Admin/Views/AdminLayout/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5MYXlvdXRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Etimad/Desktop/MultiShop/MultiShop/Frontends/MultiShop.WebUI/Areas/Admin/Views/Brand/CreateBrand.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQnJhbmRcQ3JlYXRlQnJhbmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Etimad/Desktop/MultiShop/MultiShop/Frontends/MultiShop.WebUI/Areas/Admin/Views/Brand/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQnJhbmRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Etimad/Desktop/MultiShop/MultiShop/Frontends/MultiShop.WebUI/Areas/Admin/Views/Brand/UpdateBrand.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQnJhbmRcVXBkYXRlQnJhbmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Etimad/Desktop/MultiShop/MultiShop/Frontends/MultiShop.WebUI/Areas/Admin/Views/Category/CreateCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlcQ3JlYXRlQ2F0ZWdvcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Etimad/Desktop/MultiShop/MultiShop/Frontends/MultiShop.WebUI/Areas/Admin/Views/Category/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Etimad/Desktop/MultiShop/MultiShop/Frontends/MultiShop.WebUI/Areas/Admin/Views/Category/UpdateCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlcVXBkYXRlQ2F0ZWdvcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Etimad/Desktop/MultiShop/MultiShop/Frontends/MultiShop.WebUI/Areas/Admin/Views/FeatureSlider/CreateFeatureSlider.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRmVhdHVyZVNsaWRlclxDcmVhdGVGZWF0dXJlU2xpZGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Etimad/Desktop/MultiShop/MultiShop/Frontends/MultiShop.WebUI/Areas/Admin/Views/FeatureSlider/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRmVhdHVyZVNsaWRlclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Etimad/Desktop/MultiShop/MultiShop/Frontends/MultiShop.WebUI/Areas/Admin/Views/FeatureSlider/UpdateFeatureSlider.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRmVhdHVyZVNsaWRlclxVcGRhdGVGZWF0dXJlU2xpZGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Etimad/Desktop/MultiShop/MultiShop/Frontends/MultiShop.WebUI/Areas/Admin/Views/Feature/CreateFeature.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRmVhdHVyZVxDcmVhdGVGZWF0dXJlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Etimad/Desktop/MultiShop/MultiShop/Frontends/MultiShop.WebUI/Areas/Admin/Views/Feature/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRmVhdHVyZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Etimad/Desktop/MultiShop/MultiShop/Frontends/MultiShop.WebUI/Areas/Admin/Views/Feature/UpdateFeature.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRmVhdHVyZVxVcGRhdGVGZWF0dXJlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Etimad/Desktop/MultiShop/MultiShop/Frontends/MultiShop.WebUI/Areas/Admin/Views/OfferDiscount/CreateOfferDiscount.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcT2ZmZXJEaXNjb3VudFxDcmVhdGVPZmZlckRpc2NvdW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Etimad/Desktop/MultiShop/MultiShop/Frontends/MultiShop.WebUI/Areas/Admin/Views/OfferDiscount/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcT2ZmZXJEaXNjb3VudFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Etimad/Desktop/MultiShop/MultiShop/Frontends/MultiShop.WebUI/Areas/Admin/Views/OfferDiscount/UpdateOfferDiscount.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcT2ZmZXJEaXNjb3VudFxVcGRhdGVPZmZlckRpc2NvdW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Etimad/Desktop/MultiShop/MultiShop/Frontends/MultiShop.WebUI/Areas/Admin/Views/Product/CreateProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdFxDcmVhdGVQcm9kdWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Etimad/Desktop/MultiShop/MultiShop/Frontends/MultiShop.WebUI/Areas/Admin/Views/Product/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Etimad/Desktop/MultiShop/MultiShop/Frontends/MultiShop.WebUI/Areas/Admin/Views/Product/ProductListWithCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdFxQcm9kdWN0TGlzdFdpdGhDYXRlZ29yeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Etimad/Desktop/MultiShop/MultiShop/Frontends/MultiShop.WebUI/Areas/Admin/Views/Product/UpdateProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdFxVcGRhdGVQcm9kdWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Etimad/Desktop/MultiShop/MultiShop/Frontends/MultiShop.WebUI/Areas/Admin/Views/Shared/Components/_AdminLayoutHeadComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0FkbWluTGF5b3V0SGVhZENvbXBvbmVudFBhcnRpYWxcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Etimad/Desktop/MultiShop/MultiShop/Frontends/MultiShop.WebUI/Areas/Admin/Views/Shared/Components/_AdminLayoutHeaderComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0FkbWluTGF5b3V0SGVhZGVyQ29tcG9uZW50UGFydGlhbFxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Etimad/Desktop/MultiShop/MultiShop/Frontends/MultiShop.WebUI/Areas/Admin/Views/Shared/Components/_AdminLayoutMainViewSectionViewbagComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0FkbWluTGF5b3V0TWFpblZpZXdTZWN0aW9uVmlld2JhZ0NvbXBvbmVudFBhcnRpYWxcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Etimad/Desktop/MultiShop/MultiShop/Frontends/MultiShop.WebUI/Areas/Admin/Views/Shared/Components/_AdminLayoutSidebarComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0FkbWluTGF5b3V0U2lkZWJhckNvbXBvbmVudFBhcnRpYWxcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Etimad/Desktop/MultiShop/MultiShop/Frontends/MultiShop.WebUI/Areas/Admin/Views/SpecialOffer/CreateSpecialOffer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU3BlY2lhbE9mZmVyXENyZWF0ZVNwZWNpYWxPZmZlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Etimad/Desktop/MultiShop/MultiShop/Frontends/MultiShop.WebUI/Areas/Admin/Views/SpecialOffer/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU3BlY2lhbE9mZmVyXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Etimad/Desktop/MultiShop/MultiShop/Frontends/MultiShop.WebUI/Areas/Admin/Views/SpecialOffer/UpdateSpecialOffer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU3BlY2lhbE9mZmVyXFVwZGF0ZVNwZWNpYWxPZmZlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Etimad/Desktop/MultiShop/MultiShop/Frontends/MultiShop.WebUI/Areas/Admin/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Etimad/Desktop/MultiShop/MultiShop/Frontends/MultiShop.WebUI/Views/Contact/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Etimad/Desktop/MultiShop/MultiShop/Frontends/MultiShop.WebUI/Views/Default/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVmYXVsdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -38,6 +166,18 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Etimad/Desktop/MultiShop/MultiShop/Frontends/MultiShop.WebUI/Views/ProductImage/ProductImageDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdEltYWdlXFByb2R1Y3RJbWFnZURldGFpbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Etimad/Desktop/MultiShop/MultiShop/Frontends/MultiShop.WebUI/Views/ProductList/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdExpc3RcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Etimad/Desktop/MultiShop/MultiShop/Frontends/MultiShop.WebUI/Views/ProductList/ProductDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdExpc3RcUHJvZHVjdERldGFpbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Etimad/Desktop/MultiShop/MultiShop/Frontends/MultiShop.WebUI/Views/Shared/Components/_CarouselDefaultComponentPartial/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0Nhcm91c2VsRGVmYXVsdENvbXBvbmVudFBhcnRpYWxcRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -46,8 +186,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0NhdGVnb3JpZXNEZWZhdWx0Q29tcG9uZW50UGFydGlhbFxEZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Etimad/Desktop/MultiShop/MultiShop/Frontends/MultiShop.WebUI/Views/Shared/Components/_ContactDetailComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0NvbnRhY3REZXRhaWxDb21wb25lbnRQYXJ0aWFsXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Etimad/Desktop/MultiShop/MultiShop/Frontends/MultiShop.WebUI/Views/Shared/Components/_FeatureDefaultComponentPartial/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0ZlYXR1cmVEZWZhdWx0Q29tcG9uZW50UGFydGlhbFxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Etimad/Desktop/MultiShop/MultiShop/Frontends/MultiShop.WebUI/Views/Shared/Components/_FeatureProductsDefaultComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0ZlYXR1cmVQcm9kdWN0c0RlZmF1bHRDb21wb25lbnRQYXJ0aWFsXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Etimad/Desktop/MultiShop/MultiShop/Frontends/MultiShop.WebUI/Views/Shared/Components/_FooterUILayoutComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0Zvb3RlclVJTGF5b3V0Q29tcG9uZW50UGFydGlhbFxEZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Etimad/Desktop/MultiShop/MultiShop/Frontends/MultiShop.WebUI/Views/Shared/Components/_HeadUILayoutComponentPartial/Default.cshtml]
@@ -58,6 +210,66 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX05hdmJhclVJTGF5b3V0Q29tcG9uZW50UGFydGlhbFxEZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Etimad/Desktop/MultiShop/MultiShop/Frontends/MultiShop.WebUI/Views/Shared/Components/_OfferDiscountDefaultComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX09mZmVyRGlzY291bnREZWZhdWx0Q29tcG9uZW50UGFydGlhbFxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Etimad/Desktop/MultiShop/MultiShop/Frontends/MultiShop.WebUI/Views/Shared/Components/_ProductDetailDescriptionComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX1Byb2R1Y3REZXRhaWxEZXNjcmlwdGlvbkNvbXBvbmVudFBhcnRpYWxcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Etimad/Desktop/MultiShop/MultiShop/Frontends/MultiShop.WebUI/Views/Shared/Components/_ProductDetailFeatureComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX1Byb2R1Y3REZXRhaWxGZWF0dXJlQ29tcG9uZW50UGFydGlhbFxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Etimad/Desktop/MultiShop/MultiShop/Frontends/MultiShop.WebUI/Views/Shared/Components/_ProductDetailImageSliderComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX1Byb2R1Y3REZXRhaWxJbWFnZVNsaWRlckNvbXBvbmVudFBhcnRpYWxcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Etimad/Desktop/MultiShop/MultiShop/Frontends/MultiShop.WebUI/Views/Shared/Components/_ProductDetailInformationComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX1Byb2R1Y3REZXRhaWxJbmZvcm1hdGlvbkNvbXBvbmVudFBhcnRpYWxcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Etimad/Desktop/MultiShop/MultiShop/Frontends/MultiShop.WebUI/Views/Shared/Components/_ProductDetailReviewComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX1Byb2R1Y3REZXRhaWxSZXZpZXdDb21wb25lbnRQYXJ0aWFsXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Etimad/Desktop/MultiShop/MultiShop/Frontends/MultiShop.WebUI/Views/Shared/Components/_ProductListColorFilterComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX1Byb2R1Y3RMaXN0Q29sb3JGaWx0ZXJDb21wb25lbnRQYXJ0aWFsXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Etimad/Desktop/MultiShop/MultiShop/Frontends/MultiShop.WebUI/Views/Shared/Components/_ProductListComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX1Byb2R1Y3RMaXN0Q29tcG9uZW50UGFydGlhbFxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Etimad/Desktop/MultiShop/MultiShop/Frontends/MultiShop.WebUI/Views/Shared/Components/_ProductListGetProductCountComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX1Byb2R1Y3RMaXN0R2V0UHJvZHVjdENvdW50Q29tcG9uZW50UGFydGlhbFxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Etimad/Desktop/MultiShop/MultiShop/Frontends/MultiShop.WebUI/Views/Shared/Components/_ProductListPaginationComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX1Byb2R1Y3RMaXN0UGFnaW5hdGlvbkNvbXBvbmVudFBhcnRpYWxcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Etimad/Desktop/MultiShop/MultiShop/Frontends/MultiShop.WebUI/Views/Shared/Components/_ProductListPriceFilterComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX1Byb2R1Y3RMaXN0UHJpY2VGaWx0ZXJDb21wb25lbnRQYXJ0aWFsXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Etimad/Desktop/MultiShop/MultiShop/Frontends/MultiShop.WebUI/Views/Shared/Components/_ProductListSizeFilterComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX1Byb2R1Y3RMaXN0U2l6ZUZpbHRlckNvbXBvbmVudFBhcnRpYWxcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Etimad/Desktop/MultiShop/MultiShop/Frontends/MultiShop.WebUI/Views/Shared/Components/_ScriptUILayoutComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX1NjcmlwdFVJTGF5b3V0Q29tcG9uZW50UGFydGlhbFxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Etimad/Desktop/MultiShop/MultiShop/Frontends/MultiShop.WebUI/Views/Shared/Components/_ShoppingCartDiscountCouponComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX1Nob3BwaW5nQ2FydERpc2NvdW50Q291cG9uQ29tcG9uZW50UGFydGlhbFxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Etimad/Desktop/MultiShop/MultiShop/Frontends/MultiShop.WebUI/Views/Shared/Components/_ShoppingCartProductListComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX1Nob3BwaW5nQ2FydFByb2R1Y3RMaXN0Q29tcG9uZW50UGFydGlhbFxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Etimad/Desktop/MultiShop/MultiShop/Frontends/MultiShop.WebUI/Views/Shared/Components/_SpecialOfferDefaultComponentPartial/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX1NwZWNpYWxPZmZlckRlZmF1bHRDb21wb25lbnRQYXJ0aWFsXERlZmF1bHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -66,12 +278,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX1RvcGJhclVJTGF5b3V0Q29tcG9uZW50UGFydGlhbFxEZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Etimad/Desktop/MultiShop/MultiShop/Frontends/MultiShop.WebUI/Views/Shared/Components/_VendorDefaultComponentPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX1ZlbmRvckRlZmF1bHRDb21wb25lbnRQYXJ0aWFsXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Etimad/Desktop/MultiShop/MultiShop/Frontends/MultiShop.WebUI/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Etimad/Desktop/MultiShop/MultiShop/Frontends/MultiShop.WebUI/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Etimad/Desktop/MultiShop/MultiShop/Frontends/MultiShop.WebUI/Views/ShoppingCart/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcHBpbmdDYXJ0XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Etimad/Desktop/MultiShop/MultiShop/Frontends/MultiShop.WebUI/Views/UILayout/_UILayout.cshtml]
