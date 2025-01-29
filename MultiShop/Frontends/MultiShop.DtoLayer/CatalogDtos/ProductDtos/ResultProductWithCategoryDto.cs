@@ -1,4 +1,4 @@
-﻿using MultiShop.DtoLayer.CatalogDtos.NewFolder;
+﻿using MultiShop.DtoLayer.CatalogDtos.CategoryDtos;
 using System;
 using System.Collections.Generic;
 using System.Linq;

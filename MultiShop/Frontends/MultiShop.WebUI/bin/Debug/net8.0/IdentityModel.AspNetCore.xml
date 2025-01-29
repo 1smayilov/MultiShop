@@ -1,0 +1,542 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>IdentityModel.AspNetCore</name>
+    </assembly>
+    <members>
+        <member name="T:IdentityModel.AspNetCore.AccessTokenManagement.AccessTokenManagementDefaults">
+            <summary>
+            Default values
+            </summary>
+        </member>
+        <member name="F:IdentityModel.AspNetCore.AccessTokenManagement.AccessTokenManagementDefaults.DefaultTokenClientName">
+            <summary>
+            Name of the default client access token configuration
+            </summary>
+        </member>
+        <member name="F:IdentityModel.AspNetCore.AccessTokenManagement.AccessTokenManagementDefaults.BackChannelHttpClientName">
+            <summary>
+            Name of the back-channel HTTP client
+            </summary>
+        </member>
+        <member name="T:IdentityModel.AspNetCore.AccessTokenManagement.AccessTokenManagementOptions">
+            <summary>
+            Options for the token management services
+            </summary>
+        </member>
+        <member name="P:IdentityModel.AspNetCore.AccessTokenManagement.AccessTokenManagementOptions.User">
+            <summary>
+            Options for user access tokens
+            </summary>
+        </member>
+        <member name="P:IdentityModel.AspNetCore.AccessTokenManagement.AccessTokenManagementOptions.Client">
+            <summary>
+            Options for client acccess tokens
+            </summary>
+        </member>
+        <member name="T:IdentityModel.AspNetCore.AccessTokenManagement.AccessTokenManagementOptions.UserOptions">
+            <summary>
+            User access token options
+            </summary>
+        </member>
+        <member name="P:IdentityModel.AspNetCore.AccessTokenManagement.AccessTokenManagementOptions.UserOptions.Scheme">
+            <summary>
+            Name of the authentication scheme to use for the token operations
+            </summary>
+        </member>
+        <member name="P:IdentityModel.AspNetCore.AccessTokenManagement.AccessTokenManagementOptions.UserOptions.RefreshBeforeExpiration">
+            <summary>
+            Timespan that specifies how long before expiration, the token should be refreshed (defaults to 1 minute)
+            </summary>
+        </member>
+        <member name="T:IdentityModel.AspNetCore.AccessTokenManagement.AccessTokenManagementOptions.ClientOptions">
+            <summary>
+            Client access token options
+            </summary>
+        </member>
+        <member name="P:IdentityModel.AspNetCore.AccessTokenManagement.AccessTokenManagementOptions.ClientOptions.Scheme">
+            <summary>
+            Sets the scheme name of an OpenID Connect handler, if the client configuration should be derived from it.
+            This will be used as a default if no explicit clients are configured (and will fallback to the default challenge scheme if left empty).
+            </summary>
+        </member>
+        <member name="P:IdentityModel.AspNetCore.AccessTokenManagement.AccessTokenManagementOptions.ClientOptions.Scope">
+            <summary>
+            Scope values as space separated list to use when client configuration is inferred from OpenID Connect scheme.
+            If not set, token request will omit scope parameter.
+            </summary>
+        </member>
+        <member name="P:IdentityModel.AspNetCore.AccessTokenManagement.AccessTokenManagementOptions.ClientOptions.CacheKeyPrefix">
+            <summary>
+            Used to prefix the cache key
+            </summary>
+        </member>
+        <member name="P:IdentityModel.AspNetCore.AccessTokenManagement.AccessTokenManagementOptions.ClientOptions.CacheLifetimeBuffer">
+            <summary>
+            Value to subtract from token lifetime for the cache entry lifetime (defaults to 60 seconds)
+            </summary>
+        </member>
+        <member name="P:IdentityModel.AspNetCore.AccessTokenManagement.AccessTokenManagementOptions.ClientOptions.Clients">
+            <summary>
+            Configures named client configurations for requesting client tokens.
+            </summary>
+        </member>
+        <member name="T:IdentityModel.AspNetCore.AccessTokenManagement.AccessTokenManagementService">
+            <summary>
+            Implements basic token management logic
+            </summary>
+        </member>
+        <member name="M:IdentityModel.AspNetCore.AccessTokenManagement.AccessTokenManagementService.#ctor(IdentityModel.AspNetCore.AccessTokenManagement.IUserTokenStore,Microsoft.AspNetCore.Authentication.ISystemClock,Microsoft.Extensions.Options.IOptions{IdentityModel.AspNetCore.AccessTokenManagement.AccessTokenManagementOptions},IdentityModel.AspNetCore.AccessTokenManagement.ITokenEndpointService,IdentityModel.AspNetCore.AccessTokenManagement.IClientAccessTokenCache,Microsoft.Extensions.Logging.ILogger{IdentityModel.AspNetCore.AccessTokenManagement.AccessTokenManagementService})">
+            <summary>
+            ctor
+            </summary>
+            <param name="userTokenStore"></param>
+            <param name="clock"></param>
+            <param name="options"></param>
+            <param name="tokenEndpointService"></param>
+            <param name="clientAccessTokenCache"></param>
+            <param name="logger"></param>
+        </member>
+        <member name="M:IdentityModel.AspNetCore.AccessTokenManagement.AccessTokenManagementService.GetClientAccessTokenAsync(System.String,System.Boolean,System.Threading.CancellationToken)">
+            <inheritdoc/>
+        </member>
+        <member name="M:IdentityModel.AspNetCore.AccessTokenManagement.AccessTokenManagementService.DeleteClientAccessTokenAsync(System.String,System.Threading.CancellationToken)">
+            <inheritdoc/>
+        </member>
+        <member name="M:IdentityModel.AspNetCore.AccessTokenManagement.AccessTokenManagementService.GetUserAccessTokenAsync(System.Security.Claims.ClaimsPrincipal,System.Boolean,System.Threading.CancellationToken)">
+            <inheritdoc/>
+        </member>
+        <member name="M:IdentityModel.AspNetCore.AccessTokenManagement.AccessTokenManagementService.RevokeRefreshTokenAsync(System.Security.Claims.ClaimsPrincipal,System.Threading.CancellationToken)">
+            <inheritdoc/>
+        </member>
+        <member name="T:IdentityModel.AspNetCore.AccessTokenManagement.AuthenticationSessionUserTokenStore">
+            <summary>
+            Token store using the ASP.NET Core authentication session
+            </summary>
+        </member>
+        <member name="M:IdentityModel.AspNetCore.AccessTokenManagement.AuthenticationSessionUserTokenStore.#ctor(Microsoft.AspNetCore.Http.IHttpContextAccessor)">
+            <summary>
+            ctor
+            </summary>
+            <param name="contextAccessor"></param>
+        </member>
+        <member name="M:IdentityModel.AspNetCore.AccessTokenManagement.AuthenticationSessionUserTokenStore.GetTokenAsync(System.Security.Claims.ClaimsPrincipal)">
+            <inheritdoc/>
+        </member>
+        <member name="M:IdentityModel.AspNetCore.AccessTokenManagement.AuthenticationSessionUserTokenStore.StoreTokenAsync(System.Security.Claims.ClaimsPrincipal,System.String,System.DateTimeOffset,System.String)">
+            <inheritdoc/>
+        </member>
+        <member name="M:IdentityModel.AspNetCore.AccessTokenManagement.AuthenticationSessionUserTokenStore.ClearTokenAsync(System.Security.Claims.ClaimsPrincipal)">
+            <inheritdoc/>
+        </member>
+        <member name="T:IdentityModel.AspNetCore.AccessTokenManagement.ClientAccessToken">
+            <summary>
+            Represents a client access token
+            </summary>
+        </member>
+        <member name="P:IdentityModel.AspNetCore.AccessTokenManagement.ClientAccessToken.AccessToken">
+            <summary>
+            The access token
+            </summary>
+        </member>
+        <member name="P:IdentityModel.AspNetCore.AccessTokenManagement.ClientAccessToken.Expiration">
+            <summary>
+            The access token expiration
+            </summary>
+        </member>
+        <member name="T:IdentityModel.AspNetCore.AccessTokenManagement.ClientAccessTokenCache">
+            <summary>
+            Client access token cache using IDistributedCache
+            </summary>
+        </member>
+        <member name="M:IdentityModel.AspNetCore.AccessTokenManagement.ClientAccessTokenCache.#ctor(Microsoft.Extensions.Caching.Distributed.IDistributedCache,Microsoft.Extensions.Options.IOptions{IdentityModel.AspNetCore.AccessTokenManagement.AccessTokenManagementOptions},Microsoft.Extensions.Logging.ILogger{IdentityModel.AspNetCore.AccessTokenManagement.ClientAccessTokenCache})">
+            <summary>
+            ctor
+            </summary>
+            <param name="cache"></param>
+            <param name="options"></param>
+            <param name="logger"></param>
+        </member>
+        <member name="M:IdentityModel.AspNetCore.AccessTokenManagement.ClientAccessTokenCache.GetAsync(System.String,System.Threading.CancellationToken)">
+            <inheritdoc/>
+        </member>
+        <member name="M:IdentityModel.AspNetCore.AccessTokenManagement.ClientAccessTokenCache.SetAsync(System.String,System.String,System.Int32,System.Threading.CancellationToken)">
+            <inheritdoc/>
+        </member>
+        <member name="M:IdentityModel.AspNetCore.AccessTokenManagement.ClientAccessTokenCache.DeleteAsync(System.String,System.Threading.CancellationToken)">
+            <inheritdoc/>
+        </member>
+        <member name="T:IdentityModel.AspNetCore.AccessTokenManagement.ClientAccessTokenHandler">
+            <summary>
+            Delegating handler that injects a client access token into an outgoing request
+            </summary>
+        </member>
+        <member name="M:IdentityModel.AspNetCore.AccessTokenManagement.ClientAccessTokenHandler.#ctor(IdentityModel.AspNetCore.AccessTokenManagement.IAccessTokenManagementService,System.String)">
+            <summary>
+            ctor
+            </summary>
+            <param name="accessTokenManagementService">The Access Token Management Service</param>
+            <param name="tokenClientName">The name of the token client configuration</param>
+        </member>
+        <member name="M:IdentityModel.AspNetCore.AccessTokenManagement.ClientAccessTokenHandler.SendAsync(System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken)">
+            <inheritdoc/>
+        </member>
+        <member name="M:IdentityModel.AspNetCore.AccessTokenManagement.ClientAccessTokenHandler.SetTokenAsync(System.Net.Http.HttpRequestMessage,System.Boolean,System.Threading.CancellationToken)">
+            <summary>
+            Set an access token on the HTTP request
+            </summary>
+            <param name="request"></param>
+            <param name="forceRenewal"></param>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+        <member name="T:IdentityModel.AspNetCore.AccessTokenManagement.DefaultTokenClientConfigurationService">
+            <summary>
+            Options-based configuration service for token clients
+            </summary>
+        </member>
+        <member name="M:IdentityModel.AspNetCore.AccessTokenManagement.DefaultTokenClientConfigurationService.#ctor(Microsoft.Extensions.Options.IOptions{IdentityModel.AspNetCore.AccessTokenManagement.AccessTokenManagementOptions},Microsoft.Extensions.Options.IOptionsMonitor{Microsoft.AspNetCore.Authentication.OpenIdConnect.OpenIdConnectOptions},Microsoft.AspNetCore.Authentication.IAuthenticationSchemeProvider)">
+            <summary>
+            ctor
+            </summary>
+            <param name="accessTokenManagementOptions"></param>
+            <param name="oidcOptions"></param>
+            <param name="schemeProvider"></param>
+        </member>
+        <member name="M:IdentityModel.AspNetCore.AccessTokenManagement.DefaultTokenClientConfigurationService.GetClientCredentialsRequestAsync(System.String)">
+            <inheritdoc />
+        </member>
+        <member name="M:IdentityModel.AspNetCore.AccessTokenManagement.DefaultTokenClientConfigurationService.GetRefreshTokenRequestAsync">
+            <inheritdoc />
+        </member>
+        <member name="M:IdentityModel.AspNetCore.AccessTokenManagement.DefaultTokenClientConfigurationService.GetTokenRevocationRequestAsync">
+            <inheritdoc />
+        </member>
+        <member name="M:IdentityModel.AspNetCore.AccessTokenManagement.DefaultTokenClientConfigurationService.GetOpenIdConnectSettingsAsync(System.String)">
+            <summary>
+            Retrieves configuration from a named OpenID Connect handler
+            </summary>
+            <param name="schemeName"></param>
+            <returns></returns>
+            <exception cref="T:System.InvalidOperationException"></exception>
+        </member>
+        <member name="M:IdentityModel.AspNetCore.AccessTokenManagement.DefaultTokenClientConfigurationService.CreateAssertionAsync(System.String)">
+            <summary>
+            Allows injecting a client assertion into outgoing requests
+            </summary>
+            <param name="clientName">Name of client (if present)</param>
+            <returns></returns>
+        </member>
+        <member name="T:IdentityModel.AspNetCore.AccessTokenManagement.IAccessTokenManagementService">
+            <summary>
+            Abstraction for managing user and client access tokens
+            </summary>
+        </member>
+        <member name="M:IdentityModel.AspNetCore.AccessTokenManagement.IAccessTokenManagementService.GetUserAccessTokenAsync(System.Security.Claims.ClaimsPrincipal,System.Boolean,System.Threading.CancellationToken)">
+            <summary>
+            Returns the user access token. If the current token is expired, it will try to refresh it.
+            </summary>
+            <returns>An access token or null if refreshing did not work.</returns>
+        </member>
+        <member name="M:IdentityModel.AspNetCore.AccessTokenManagement.IAccessTokenManagementService.RevokeRefreshTokenAsync(System.Security.Claims.ClaimsPrincipal,System.Threading.CancellationToken)">
+            <summary>
+            Revokes the current refresh token
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:IdentityModel.AspNetCore.AccessTokenManagement.IAccessTokenManagementService.GetClientAccessTokenAsync(System.String,System.Boolean,System.Threading.CancellationToken)">
+            <summary>
+            Returns either a cached or a new access token for a given client configuration or the default client
+            </summary>
+            <param name="clientName">Name of the client configuration, or default is omitted.</param>
+            <param name="forceRenewal">Ignores the cached token, and gets a new one.</param>
+            <param name="cancellationToken">A cancellation token to cancel the operation</param>
+            <returns>The access token or null if the no token can be requested.</returns>
+        </member>
+        <member name="M:IdentityModel.AspNetCore.AccessTokenManagement.IAccessTokenManagementService.DeleteClientAccessTokenAsync(System.String,System.Threading.CancellationToken)">
+            <summary>
+            Deletes a client access token from the cache
+            </summary>
+            <param name="clientName">Name of the client configuration, or default is omitted.</param>
+            <param name="cancellationToken">A cancellation token to cancel operation.</param>
+            <returns>The access token or null if the no token can be requested.</returns>
+        </member>
+        <member name="T:IdentityModel.AspNetCore.AccessTokenManagement.IClientAccessTokenCache">
+            <summary>
+            Abstraction for caching client access tokens
+            </summary>
+        </member>
+        <member name="M:IdentityModel.AspNetCore.AccessTokenManagement.IClientAccessTokenCache.SetAsync(System.String,System.String,System.Int32,System.Threading.CancellationToken)">
+            <summary>
+            Caches a client access token
+            </summary>
+            <param name="clientName"></param>
+            <param name="accessToken"></param>
+            <param name="expiresIn"></param>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+        <member name="M:IdentityModel.AspNetCore.AccessTokenManagement.IClientAccessTokenCache.GetAsync(System.String,System.Threading.CancellationToken)">
+            <summary>
+            Retrieves a client access token from the cache
+            </summary>
+            <param name="clientName"></param>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+        <member name="M:IdentityModel.AspNetCore.AccessTokenManagement.IClientAccessTokenCache.DeleteAsync(System.String,System.Threading.CancellationToken)">
+            <summary>
+            Deletes a client access token from the cache
+            </summary>
+            <param name="clientName"></param>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+        <member name="T:IdentityModel.AspNetCore.AccessTokenManagement.ITokenClientConfigurationService">
+            <summary>
+            Retrieves request details for client credentials, refresh and revocation requests
+            </summary>
+        </member>
+        <member name="M:IdentityModel.AspNetCore.AccessTokenManagement.ITokenClientConfigurationService.GetClientCredentialsRequestAsync(System.String)">
+            <summary>
+            Returns the request details for a client credentials token request
+            </summary>
+            <param name="clientName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:IdentityModel.AspNetCore.AccessTokenManagement.ITokenClientConfigurationService.GetRefreshTokenRequestAsync">
+            <summary>
+            Returns the request details for a refresh token request
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:IdentityModel.AspNetCore.AccessTokenManagement.ITokenClientConfigurationService.GetTokenRevocationRequestAsync">
+            <summary>
+            Returns the request details for a token revocation request
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:IdentityModel.AspNetCore.AccessTokenManagement.ITokenEndpointService">
+            <summary>
+            Abstraction for token endpoint operations
+            </summary>
+        </member>
+        <member name="M:IdentityModel.AspNetCore.AccessTokenManagement.ITokenEndpointService.RefreshUserAccessTokenAsync(System.String,System.Threading.CancellationToken)">
+            <summary>
+            Refreshes a user access token.
+            </summary>
+            <param name="refreshToken"></param>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+        <member name="M:IdentityModel.AspNetCore.AccessTokenManagement.ITokenEndpointService.RequestClientAccessToken(System.String,System.Threading.CancellationToken)">
+            <summary>
+            Requests a client access token.
+            </summary>
+            <param name="clientName"></param>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+        <member name="M:IdentityModel.AspNetCore.AccessTokenManagement.ITokenEndpointService.RevokeRefreshTokenAsync(System.String,System.Threading.CancellationToken)">
+            <summary>
+            Revokes a refresh token.
+            </summary>
+            <param name="refreshToken"></param>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+        <member name="T:IdentityModel.AspNetCore.AccessTokenManagement.IUserTokenStore">
+            <summary>
+            Storage abstraction for access and refresh tokens
+            </summary>
+        </member>
+        <member name="M:IdentityModel.AspNetCore.AccessTokenManagement.IUserTokenStore.StoreTokenAsync(System.Security.Claims.ClaimsPrincipal,System.String,System.DateTimeOffset,System.String)">
+            <summary>
+            Stores tokens
+            </summary>
+            <param name="user">User the tokens belong to</param>
+            <param name="accessToken">The access token</param>
+            <param name="expiration">The access token expiration</param>
+            <param name="refreshToken">The refresh token</param>
+            <returns></returns>
+        </member>
+        <member name="M:IdentityModel.AspNetCore.AccessTokenManagement.IUserTokenStore.GetTokenAsync(System.Security.Claims.ClaimsPrincipal)">
+            <summary>
+            Retrieves tokens from store
+            </summary>
+            <param name="user">User the tokens belong to</param>
+            <returns>access and refresh token and access token expiration</returns>
+        </member>
+        <member name="M:IdentityModel.AspNetCore.AccessTokenManagement.IUserTokenStore.ClearTokenAsync(System.Security.Claims.ClaimsPrincipal)">
+            <summary>
+            Clears the stored tokens for a given user
+            </summary>
+            <param name="user">User the tokens belong to</param>
+            <returns></returns>
+        </member>
+        <member name="T:IdentityModel.AspNetCore.AccessTokenManagement.TokenEndpointService">
+            <summary>
+            Implements token endpoint operations using IdentityModel
+            </summary>
+        </member>
+        <member name="M:IdentityModel.AspNetCore.AccessTokenManagement.TokenEndpointService.#ctor(IdentityModel.AspNetCore.AccessTokenManagement.ITokenClientConfigurationService,System.Net.Http.IHttpClientFactory)">
+            <summary>
+            ctor
+            </summary>
+            <param name="configService"></param>
+            <param name="httpClientFactory"></param>
+        </member>
+        <member name="M:IdentityModel.AspNetCore.AccessTokenManagement.TokenEndpointService.RequestClientAccessToken(System.String,System.Threading.CancellationToken)">
+            <inheritdoc/>
+        </member>
+        <member name="M:IdentityModel.AspNetCore.AccessTokenManagement.TokenEndpointService.RefreshUserAccessTokenAsync(System.String,System.Threading.CancellationToken)">
+            <inheritdoc/>
+        </member>
+        <member name="M:IdentityModel.AspNetCore.AccessTokenManagement.TokenEndpointService.RevokeRefreshTokenAsync(System.String,System.Threading.CancellationToken)">
+            <inheritdoc/>
+        </member>
+        <member name="T:IdentityModel.AspNetCore.AccessTokenManagement.TokenManagementBuilder">
+            <summary>
+            Builder object for the token management services
+            </summary>
+        </member>
+        <member name="P:IdentityModel.AspNetCore.AccessTokenManagement.TokenManagementBuilder.Services">
+            <summary>
+            The underlying service collection
+            </summary>
+        </member>
+        <member name="M:IdentityModel.AspNetCore.AccessTokenManagement.TokenManagementBuilder.#ctor(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            ctor
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:IdentityModel.AspNetCore.AccessTokenManagement.TokenManagementBuilder.ConfigureBackchannelHttpClient(System.Action{System.Net.Http.HttpClient})">
+            <summary>
+            Configures the back-channel client
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:IdentityModel.AspNetCore.AccessTokenManagement.UserAccessToken">
+            <summary>
+            Models a user access token
+            </summary>
+        </member>
+        <member name="P:IdentityModel.AspNetCore.AccessTokenManagement.UserAccessToken.AccessToken">
+            <summary>
+            The access token
+            </summary>
+        </member>
+        <member name="P:IdentityModel.AspNetCore.AccessTokenManagement.UserAccessToken.Expiration">
+            <summary>
+            The access token expiration
+            </summary>
+        </member>
+        <member name="P:IdentityModel.AspNetCore.AccessTokenManagement.UserAccessToken.RefreshToken">
+            <summary>
+            The refresh token
+            </summary>
+        </member>
+        <member name="T:IdentityModel.AspNetCore.AccessTokenManagement.UserAccessTokenHandler">
+            <summary>
+            Delegating handler that injects the current access token into an outgoing request
+            </summary>
+        </member>
+        <member name="M:IdentityModel.AspNetCore.AccessTokenManagement.UserAccessTokenHandler.#ctor(Microsoft.AspNetCore.Http.IHttpContextAccessor)">
+            <summary>
+            ctor
+            </summary>
+            <param name="httpContextAccessor"></param>
+        </member>
+        <member name="M:IdentityModel.AspNetCore.AccessTokenManagement.UserAccessTokenHandler.SendAsync(System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken)">
+            <inheritdoc/>
+        </member>
+        <member name="M:IdentityModel.AspNetCore.AccessTokenManagement.UserAccessTokenHandler.SetTokenAsync(System.Net.Http.HttpRequestMessage,System.Boolean)">
+            <summary>
+            Set an access token on the HTTP request
+            </summary>
+            <param name="request"></param>
+            <param name="forceRenewal"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Microsoft.AspNetCore.Authentication.TokenManagementHttpContextExtensions">
+            <summary>
+            Extensions methods for HttpContext for token management
+            </summary>
+        </member>
+        <member name="M:Microsoft.AspNetCore.Authentication.TokenManagementHttpContextExtensions.GetUserAccessTokenAsync(Microsoft.AspNetCore.Http.HttpContext,System.Boolean,System.Threading.CancellationToken)">
+            <summary>
+            Returns (and refreshes if needed) the current access token for the logged on user
+            </summary>
+            <param name="context"></param>
+            <param name="forceRenewal">If set to true, the cached user token is ignored, and a new one gets requested. Default to false.</param>
+            <param name="cancellationToken">A cancellation token to cancel operation.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Microsoft.AspNetCore.Authentication.TokenManagementHttpContextExtensions.GetClientAccessTokenAsync(Microsoft.AspNetCore.Http.HttpContext,System.String,System.Boolean,System.Threading.CancellationToken)">
+            <summary>
+            Returns an access token for the standard client or a named client
+            </summary>
+            <param name="context"></param>
+            <param name="clientName">Name of the client configuration (or null to use the standard client).</param>
+            <param name="forceRenewal">If set to true, the cached access token is ignored, and a new one gets requested. Default to false.</param>
+            <param name="cancellationToken">A cancellation token to cancel operation.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Microsoft.AspNetCore.Authentication.TokenManagementHttpContextExtensions.RevokeUserRefreshTokenAsync(Microsoft.AspNetCore.Http.HttpContext,System.Threading.CancellationToken)">
+            <summary>
+            Revokes the current user refresh token
+            </summary>
+            <param name="context"></param>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Microsoft.Extensions.DependencyInjection.TokenManagementServiceCollectionExtensions">
+            <summary>
+            Extension methods for IServiceCollection to register the token management services
+            </summary>
+        </member>
+        <member name="M:Microsoft.Extensions.DependencyInjection.TokenManagementServiceCollectionExtensions.AddAccessTokenManagement(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Action{IdentityModel.AspNetCore.AccessTokenManagement.AccessTokenManagementOptions})">
+            <summary>
+            Adds the token management services to DI
+            </summary>
+            <param name="services"></param>
+            <param name="options"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Microsoft.Extensions.DependencyInjection.TokenManagementServiceCollectionExtensions.AddUserAccessTokenClient(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.String,System.Action{System.Net.Http.HttpClient})">
+            <summary>
+            Adds a named HTTP client for the factory that automatically sends the current user access token
+            </summary>
+            <param name="services"></param>
+            <param name="name">The name of the client.</param>
+            <param name="configureClient">Additional configuration.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Microsoft.Extensions.DependencyInjection.TokenManagementServiceCollectionExtensions.AddClientAccessTokenClient(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.String,System.String,System.Action{System.Net.Http.HttpClient})">
+            <summary>
+            Adds a named HTTP client for the factory that automatically sends the a client access token
+            </summary>
+            <param name="services"></param>
+            <param name="clientName">The name of the client.</param>
+            <param name="tokenClientName">The name of the token client.</param>
+            <param name="configureClient">Additional configuration.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Microsoft.Extensions.DependencyInjection.TokenManagementServiceCollectionExtensions.AddClientAccessTokenHandler(Microsoft.Extensions.DependencyInjection.IHttpClientBuilder,System.String)">
+            <summary>
+            Adds the client access token handler to an HttpClient
+            </summary>
+            <param name="httpClientBuilder"></param>
+            <param name="tokenClientName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Microsoft.Extensions.DependencyInjection.TokenManagementServiceCollectionExtensions.AddUserAccessTokenHandler(Microsoft.Extensions.DependencyInjection.IHttpClientBuilder)">
+            <summary>
+            Adds the user access token handler to an HttpClient
+            </summary>
+            <param name="httpClientBuilder"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

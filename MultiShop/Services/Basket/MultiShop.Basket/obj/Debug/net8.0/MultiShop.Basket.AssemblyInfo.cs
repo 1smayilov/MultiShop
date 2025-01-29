@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MultiShop.Basket")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5cf5f1c1f0f04e9f200dbd70c348283865cab981")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+526bb063edcc54d58db15257b49713ddb8359238")]
 [assembly: System.Reflection.AssemblyProductAttribute("MultiShop.Basket")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MultiShop.Basket")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

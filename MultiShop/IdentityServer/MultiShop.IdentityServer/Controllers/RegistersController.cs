@@ -6,9 +6,9 @@ using MultiShop.IdentityServer.Dtos;
 using MultiShop.IdentityServer.Models;
 using static Duende.IdentityServer.IdentityServerConstants;
 
-namespace MultiShop.IdentityServer.Controllers
+namespace MultiShop.IdentityServer.Controllers 
 {
-    [Authorize(LocalApi.PolicyName)] // Mütləq tokeni olmalıdır bu səhifə üçün
+    [AllowAnonymous]
     [Route("api/[controller]")]
     [ApiController]
     public class RegistersController : ControllerBase
