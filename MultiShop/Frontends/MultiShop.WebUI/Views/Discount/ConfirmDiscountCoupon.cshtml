@@ -1,0 +1,44 @@
+﻿
+
+<div class="col-lg-4">
+    <form class="mb-30" asp-controller="Discount" asp-action="ConfirmDiscountCoupon" method="post">
+        <div class="input-group">
+            <input type="text" name="code" value="@ViewBag.code" class="form-control border-0 p-4" placeholder="Kupon Kodunuz">
+            <div class="input-group-append">
+                <button class="btn btn-primary">İstifadə Et</button>
+                <br />
+                <h3></h3>
+            </div>
+        </div>
+    </form>
+    <h5 class="section-title position-relative text-uppercase mb-3"><span class="bg-secondary pr-3">Sifariş Xülasəsi</span></h5>
+    <div class="bg-light p-30 mb-5">
+        <div class="border-bottom pb-2">
+            <div class="d-flex justify-content-between mb-1">
+                <h6>Məhsulun İlkin Qiyməti</h6>
+                <h6>@ViewBag.total.ToString("N2") ₼</h6>
+            </div>
+            <div class="d-flex justify-content-between mb-1">
+                <h6 class="font-weight-medium">Tutulan Komissiya(0.5%)</h6>
+                <h6 class="font-weight-medium">@ViewBag.tax.ToString("N2") ₼</h6>
+            </div>
+            <div class="d-flex justify-content-between mb-1">
+                <h6 class="font-weight-medium">Kupon Endirim Faizi</h6>
+                <h6 class="font-weight-medium">@ViewBag.discountRate.ToString("N2")%</h6>
+            </div>
+            <div class="pt-2">
+            <div class="d-flex justify-content-between mb-1">
+                <h5 class="font-weight-medium">Endirimsiz Qiyməti</h5>
+                <h5 class="font-weight-medium">@ViewBag.totalPriceWithTax.ToString("N2") ₼</h5>
+            </div>
+            </div>
+        </div>
+        <div class="pt-2">
+            <div class="d-flex justify-content-between mt-2">
+                <h5>Endirimli Qiymət</h5>
+                <h5>@ViewBag.totalNewPriceWithDiscount.ToString("N2") ₼</h5>
+            </div>
+            <button class="btn btn-block btn-primary font-weight-bold my-3 py-3">Ödəmə Addımına Keç</button>
+        </div>
+    </div>
+</div>

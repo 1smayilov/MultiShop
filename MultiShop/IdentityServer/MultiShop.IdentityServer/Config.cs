@@ -62,8 +62,8 @@ public static class Config
 			AllowedGrantTypes = GrantTypes.ResourceOwnerPassword,
 			ClientSecrets = { new Secret("multishopsecret".Sha256())},
 			AllowedScopes = { "CatalogReadPermission", "CatalogFullPermission", "BasketFullPermission", "OcelotFullPermission",
-			"CommentFullPermission", "PaymentFullPermission","ImagesFullPermission", "CommentFullPermission",
-
+			"CommentFullPermission", "PaymentFullPermission","ImagesFullPermission", "CommentFullPermission", "DiscountFullPermission",
+            "OrderFullPermission",
 
                 IdentityServerConstants.LocalApi.ScopeName,
 				IdentityServerConstants.StandardScopes.Email,

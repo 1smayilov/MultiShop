@@ -2,6 +2,7 @@
 using MultiShop.DtoLayer.BasketDtos;
 using MultiShop.WebUI.Services.BasketServices;
 using MultiShop.WebUI.Services.CatalogServices.ProductServices;
+using MultiShop.WebUI.Services.DiscountServices;
 
 namespace MultiShop.WebUI.Controllers
 {
@@ -10,17 +11,27 @@ namespace MultiShop.WebUI.Controllers
         private readonly IProductService _productService;
         private readonly IBasketService _basketService;
 
-        public ShoppingCartController(IProductService productService, IBasketService basketService)
+        public ShoppingCartController(IProductService productService, IBasketService basketService )
         {
             _productService = productService;
             _basketService = basketService;
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index(string code, int discountRate, decimal totalNewPriceWithDiscount)
+        
         {
+            ViewBag.code = code;
+            ViewBag.discountRate = discountRate;
+            ViewBag.totalNewPriceWithDiscount = totalNewPriceWithDiscount;
             ViewBag.directory1 = "Ana Səhifə";
             ViewBag.directory2 = "Məhsullar";
             ViewBag.directory3 = "Səbətim";
+            var values = await _basketService.GetBasket();
+            ViewBag.total = values.TotalPrice;
+            var totalPriceWithTax = values.TotalPrice + values.TotalPrice / 200 * 1;
+            var tax = values.TotalPrice / 200 * 1;
+            ViewBag.totalPriceWithTax = totalPriceWithTax;
+            ViewBag.tax = tax;
             return View();
         }
          
