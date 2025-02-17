@@ -1,4 +1,4 @@
-İstifadə olunan DB Texnologiyaları 
+İstifadə olunan DB Texnologiyaları: 
 MsSql(Local)
 MsSql(Docker)
 Postgresql
@@ -6,7 +6,7 @@ Redis
 MongoDB
 SqlLite
 
-İstifadə olunan Backend Texnologiyaları
+İstifadə olunan Backend Texnologiyaları:
 Docker
 Identity
 JWT
@@ -19,7 +19,7 @@ SMTP Mail
 JWT Bearer
 Dapper
 
-İstifadə olunan Design Patterns
+İstifadə olunan Design Patterns:
 Mediator Design Pattern
 CQRS Design Pattern
 Onion Architecture
