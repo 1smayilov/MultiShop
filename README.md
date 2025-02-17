@@ -4,7 +4,6 @@ MsSql(Docker)
 Postgresql
 Redis
 MongoDB
-SqlLite
 
 İstifadə olunan Backend Texnologiyaları:
 Docker
