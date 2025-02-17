@@ -43,7 +43,7 @@
     {
       "DownstreamPathTemplate": "/api/{everything}",
       "DownstreamScheme": "http",
-      "DownstreamHostAndPorts": [
+      "DownstreamHostAndPorts": [ 
         {
           "Host": "localhost",
           "Port": 7072

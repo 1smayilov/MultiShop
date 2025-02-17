@@ -15,6 +15,7 @@ public static class Config
 		new ApiResource("ResourceComment") {Scopes={"CommentFullPermission"}},
 		new ApiResource("ResourceBasket") {Scopes={"BasketFullPermission"}},
 		new ApiResource("ResourceOcelot") {Scopes={"OcelotFullPermission"}},
+		new ApiResource("ResourceMessage") {Scopes={"MessageFullPermission"}},
 		new ApiResource(IdentityServerConstants.LocalApi.ScopeName)
 	};
 
@@ -37,6 +38,7 @@ public static class Config
 		new ApiScope("PaymentFullPermission","Full authority for payment operations"),
 		new ApiScope("ImagesFullPermission","Full authority for images operations"),
 		new ApiScope("OcelotFullPermission","Full authority for ocelot operations"),
+		new ApiScope("MessageFullPermission","Full authority for message operations"),
 		new ApiScope(IdentityServerConstants.LocalApi.ScopeName)
 	};
 
@@ -63,7 +65,7 @@ public static class Config
 			ClientSecrets = { new Secret("multishopsecret".Sha256())},
 			AllowedScopes = { "CatalogReadPermission", "CatalogFullPermission", "BasketFullPermission", "OcelotFullPermission",
 			"CommentFullPermission", "PaymentFullPermission","ImagesFullPermission", "CommentFullPermission", "DiscountFullPermission",
-            "OrderFullPermission",
+            "OrderFullPermission", "MessageFullPermission", "CargoFullPermission",
 
                 IdentityServerConstants.LocalApi.ScopeName,
 				IdentityServerConstants.StandardScopes.Email,

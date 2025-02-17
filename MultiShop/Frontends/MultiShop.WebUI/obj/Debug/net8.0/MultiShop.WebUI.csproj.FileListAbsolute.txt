@@ -280,3 +280,13 @@ C:\Users\Etimad\Desktop\MultiShop\MultiShop\Frontends\MultiShop.WebUI\bin\Debug\
 C:\Users\Etimad\Desktop\MultiShop\MultiShop\Frontends\MultiShop.WebUI\bin\Debug\net8.0\MultiShop.Order.Persistence.pdb
 C:\Users\Etimad\Desktop\MultiShop\MultiShop\Frontends\MultiShop.WebUI\bin\Debug\net8.0\MultiShop.Order.Application.pdb
 C:\Users\Etimad\Desktop\MultiShop\MultiShop\Frontends\MultiShop.WebUI\bin\Debug\net8.0\MultiShop.Order.Domain.pdb
+C:\Users\Etimad\Desktop\MultiShop\MultiShop\Frontends\MultiShop.WebUI\bin\Debug\net8.0\en\MultiShop.WebUI.resources.dll
+C:\Users\Etimad\Desktop\MultiShop\MultiShop\Frontends\MultiShop.WebUI\obj\Debug\net8.0\MultiShop.WebUI.csproj.GenerateResource.cache
+C:\Users\Etimad\Desktop\MultiShop\MultiShop\Frontends\MultiShop.WebUI\obj\Debug\net8.0\en\MultiShop.WebUI.resources.dll
+C:\Users\Etimad\Desktop\MultiShop\MultiShop\Frontends\MultiShop.WebUI\obj\Debug\net8.0\MultiShop.WebUI.Resources.Views.Information.Index.en.resources
+C:\Users\Etimad\Desktop\MultiShop\MultiShop\Frontends\MultiShop.WebUI\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\Users\Etimad\Desktop\MultiShop\MultiShop\Frontends\MultiShop.WebUI\bin\Debug\net8.0\MailKit.dll
+C:\Users\Etimad\Desktop\MultiShop\MultiShop\Frontends\MultiShop.WebUI\bin\Debug\net8.0\MimeKit.dll
+C:\Users\Etimad\Desktop\MultiShop\MultiShop\Frontends\MultiShop.WebUI\bin\Debug\net8.0\NETCore.MailKit.dll
+C:\Users\Etimad\Desktop\MultiShop\MultiShop\Frontends\MultiShop.WebUI\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\Etimad\Desktop\MultiShop\MultiShop\Frontends\MultiShop.WebUI\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll

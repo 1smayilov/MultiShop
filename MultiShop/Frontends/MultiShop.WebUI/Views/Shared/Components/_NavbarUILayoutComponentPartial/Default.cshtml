@@ -1,4 +1,6 @@
-﻿@using MultiShop.DtoLayer.CatalogDtos.CategoryDtos
+﻿@inject Microsoft.AspNetCore.Mvc.Localization.IViewLocalizer localizer
+
+@using MultiShop.DtoLayer.CatalogDtos.CategoryDtos
 @model List<ResultCategoryDto>
 
 <div class="container-fluid bg-dark mb-30">
@@ -28,9 +30,9 @@
                 </button>
                 <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                     <div class="navbar-nav mr-auto py-0">
-                        <a href="/Default/Index/" class="nav-item nav-link">Ana Səhifəsi</a>
-                        <a href="shop.html" class="nav-item nav-link">Shop</a>
-                        <a href="detail.html" class="nav-item nav-link">Shop Detail</a>
+                        <a href="/Default/Index/" class="nav-item nav-link active">@localizer["Ana Səhifə"]</a>
+                        <a href="shop.html" class="nav-item nav-link">@localizer["Məhsullar"]</a>
+                        <a href="detail.html" class="nav-item nav-link">Məhsul Haqqında</a>
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages <i class="fa fa-angle-down mt-1"></i></a>
                             <div class="dropdown-menu bg-primary rounded-0 border-0 m-0">
@@ -40,7 +42,7 @@
                                 <a href="/Login/Index/" class="dropdown-item">Daxil Ol</a>
                             </div>
                         </div>
-                        <a href="/Contact/Index/" class="nav-item nav-link active">Contact</a>
+                        <a href="/Contact/Index/" class="nav-item nav-link ">Contact</a>
                     </div>
                     <div class="navbar-nav ml-auto py-0 d-none d-lg-block">
                         <a href="" class="btn px-0">

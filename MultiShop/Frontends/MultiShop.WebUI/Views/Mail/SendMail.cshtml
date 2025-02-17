@@ -1,0 +1,26 @@
+﻿@model MailRequest
+ 
+@{
+    Layout = null;
+}
+
+<link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+<div class="container">
+    <br />
+    <br />
+    <div class="alert alert-success"><h3>Mail Göndərmə Səhifəsi</h3></div>
+    <form  method="post">
+        <label>Alıcı Mail Adresi</label>
+        <input type="text" asp-for="ReceiverMail" class="form-control"/>
+        <br />
+        <label>Mail Mövzusu</label>
+        <input type="text" asp-for="Subject" class="form-control" />
+        <br />
+        <label>Mail Mesajı</label>
+        <textarea rows="5" class="form-control" asp-for="MessageContent"></textarea>
+        <br />
+        <button class="btn btn-primary">Göndər</button>
+    </form>
+</div>
+

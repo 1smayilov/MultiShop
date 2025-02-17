@@ -54,6 +54,18 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQnJhbmRcVXBkYXRlQnJhbmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Etimad/Desktop/MultiShop/MultiShop/Frontends/MultiShop.WebUI/Areas/Admin/Views/Cargo/CargoCompanyList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2FyZ29cQ2FyZ29Db21wYW55TGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Etimad/Desktop/MultiShop/MultiShop/Frontends/MultiShop.WebUI/Areas/Admin/Views/Cargo/CreateCargoCompany.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2FyZ29cQ3JlYXRlQ2FyZ29Db21wYW55LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Etimad/Desktop/MultiShop/MultiShop/Frontends/MultiShop.WebUI/Areas/Admin/Views/Cargo/UpdateCargoCompany.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2FyZ29cVXBkYXRlQ2FyZ29Db21wYW55LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Etimad/Desktop/MultiShop/MultiShop/Frontends/MultiShop.WebUI/Areas/Admin/Views/Category/CreateCategory.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlcQ3JlYXRlQ2F0ZWdvcnkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -162,8 +174,32 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU3BlY2lhbE9mZmVyXFVwZGF0ZVNwZWNpYWxPZmZlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Etimad/Desktop/MultiShop/MultiShop/Frontends/MultiShop.WebUI/Areas/Admin/Views/Statistic/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU3RhdGlzdGljXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Etimad/Desktop/MultiShop/MultiShop/Frontends/MultiShop.WebUI/Areas/Admin/Views/Test/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVGVzdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Etimad/Desktop/MultiShop/MultiShop/Frontends/MultiShop.WebUI/Areas/Admin/Views/User/UserAddressInfo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXNlclxVc2VyQWRkcmVzc0luZm8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Etimad/Desktop/MultiShop/MultiShop/Frontends/MultiShop.WebUI/Areas/Admin/Views/User/UserList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXNlclxVc2VyTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Etimad/Desktop/MultiShop/MultiShop/Frontends/MultiShop.WebUI/Areas/Admin/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Etimad/Desktop/MultiShop/MultiShop/Frontends/MultiShop.WebUI/Areas/User/Views/Message/Inbox.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xNZXNzYWdlXEluYm94LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Etimad/Desktop/MultiShop/MultiShop/Frontends/MultiShop.WebUI/Areas/User/Views/Message/Sendbox.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xNZXNzYWdlXFNlbmRib3guY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Etimad/Desktop/MultiShop/MultiShop/Frontends/MultiShop.WebUI/Areas/User/Views/MyOrder/MyOrderList.cshtml]
@@ -186,6 +222,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xVc2VyTGF5b3V0XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Etimad/Desktop/MultiShop/MultiShop/Frontends/MultiShop.WebUI/Areas/User/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxWaWV3c1xfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Etimad/Desktop/MultiShop/MultiShop/Frontends/MultiShop.WebUI/Views/Contact/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -206,8 +246,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Etimad/Desktop/MultiShop/MultiShop/Frontends/MultiShop.WebUI/Views/Information/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5mb3JtYXRpb25cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Etimad/Desktop/MultiShop/MultiShop/Frontends/MultiShop.WebUI/Views/Login/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Etimad/Desktop/MultiShop/MultiShop/Frontends/MultiShop.WebUI/Views/Mail/SendMail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpbFxTZW5kTWFpbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Etimad/Desktop/MultiShop/MultiShop/Frontends/MultiShop.WebUI/Views/Order/Index.cshtml]

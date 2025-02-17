@@ -3,44 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Etimad\\Desktop\\MultiShop\\MultiShop\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E8D11E63-208D-42EE-A117-AE6AC7D90D95}|Services\\Order\\Core\\MultiShop.Order.Application\\MultiShop.Order.Application.csproj|c:\\users\\etimad\\desktop\\multishop\\multishop\\services\\order\\core\\multishop.order.application\\features\\mediator\\handlers\\orderinghandlers\\getorderingbyuseridqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E8D11E63-208D-42EE-A117-AE6AC7D90D95}|Services\\Order\\Core\\MultiShop.Order.Application\\MultiShop.Order.Application.csproj|solutionrelative:services\\order\\core\\multishop.order.application\\features\\mediator\\handlers\\orderinghandlers\\getorderingbyuseridqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{96FCD989-4ADD-4827-83A2-8F770680D3ED}|Frontends\\MultiShop.WebUI\\MultiShop.WebUI.csproj|c:\\users\\etimad\\desktop\\multishop\\multishop\\frontends\\multishop.webui\\views\\mail\\sendmail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{96FCD989-4ADD-4827-83A2-8F770680D3ED}|Frontends\\MultiShop.WebUI\\MultiShop.WebUI.csproj|solutionrelative:frontends\\multishop.webui\\views\\mail\\sendmail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E8D11E63-208D-42EE-A117-AE6AC7D90D95}|Services\\Order\\Core\\MultiShop.Order.Application\\MultiShop.Order.Application.csproj|c:\\users\\etimad\\desktop\\multishop\\multishop\\services\\order\\core\\multishop.order.application\\features\\mediator\\queries\\orderingqueries\\getorderingbyuseridquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E8D11E63-208D-42EE-A117-AE6AC7D90D95}|Services\\Order\\Core\\MultiShop.Order.Application\\MultiShop.Order.Application.csproj|solutionrelative:services\\order\\core\\multishop.order.application\\features\\mediator\\queries\\orderingqueries\\getorderingbyuseridquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{96FCD989-4ADD-4827-83A2-8F770680D3ED}|Frontends\\MultiShop.WebUI\\MultiShop.WebUI.csproj|c:\\users\\etimad\\desktop\\multishop\\multishop\\frontends\\multishop.webui\\controllers\\mailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96FCD989-4ADD-4827-83A2-8F770680D3ED}|Frontends\\MultiShop.WebUI\\MultiShop.WebUI.csproj|solutionrelative:frontends\\multishop.webui\\controllers\\mailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{84DB8127-DBA6-4F04-A3B7-1FDA37C91CD0}|Services\\Order\\Infrastructure\\MultiShop.Order.Persistence\\MultiShop.Order.Persistence.csproj|c:\\users\\etimad\\desktop\\multishop\\multishop\\services\\order\\infrastructure\\multishop.order.persistence\\repositories\\orderingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{84DB8127-DBA6-4F04-A3B7-1FDA37C91CD0}|Services\\Order\\Infrastructure\\MultiShop.Order.Persistence\\MultiShop.Order.Persistence.csproj|solutionrelative:services\\order\\infrastructure\\multishop.order.persistence\\repositories\\orderingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{96FCD989-4ADD-4827-83A2-8F770680D3ED}|Frontends\\MultiShop.WebUI\\MultiShop.WebUI.csproj|C:\\Users\\Etimad\\Desktop\\MultiShop\\MultiShop\\frontends\\multishop.webui\\models\\mailrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96FCD989-4ADD-4827-83A2-8F770680D3ED}|Frontends\\MultiShop.WebUI\\MultiShop.WebUI.csproj|solutionrelative:frontends\\multishop.webui\\models\\mailrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E8D11E63-208D-42EE-A117-AE6AC7D90D95}|Services\\Order\\Core\\MultiShop.Order.Application\\MultiShop.Order.Application.csproj|c:\\users\\etimad\\desktop\\multishop\\multishop\\services\\order\\core\\multishop.order.application\\interfaces\\iorderingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E8D11E63-208D-42EE-A117-AE6AC7D90D95}|Services\\Order\\Core\\MultiShop.Order.Application\\MultiShop.Order.Application.csproj|solutionrelative:services\\order\\core\\multishop.order.application\\interfaces\\iorderingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E8D11E63-208D-42EE-A117-AE6AC7D90D95}|Services\\Order\\Core\\MultiShop.Order.Application\\MultiShop.Order.Application.csproj|c:\\users\\etimad\\desktop\\multishop\\multishop\\services\\order\\core\\multishop.order.application\\interfaces\\iorderdetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E8D11E63-208D-42EE-A117-AE6AC7D90D95}|Services\\Order\\Core\\MultiShop.Order.Application\\MultiShop.Order.Application.csproj|solutionrelative:services\\order\\core\\multishop.order.application\\interfaces\\iorderdetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E8D11E63-208D-42EE-A117-AE6AC7D90D95}|Services\\Order\\Core\\MultiShop.Order.Application\\MultiShop.Order.Application.csproj|c:\\users\\etimad\\desktop\\multishop\\multishop\\services\\order\\core\\multishop.order.application\\features\\mediator\\results\\orderingresults\\getorderingbyuseridqueryresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E8D11E63-208D-42EE-A117-AE6AC7D90D95}|Services\\Order\\Core\\MultiShop.Order.Application\\MultiShop.Order.Application.csproj|solutionrelative:services\\order\\core\\multishop.order.application\\features\\mediator\\results\\orderingresults\\getorderingbyuseridqueryresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E8D11E63-208D-42EE-A117-AE6AC7D90D95}|Services\\Order\\Core\\MultiShop.Order.Application\\MultiShop.Order.Application.csproj|c:\\users\\etimad\\desktop\\multishop\\multishop\\services\\order\\core\\multishop.order.application\\features\\mediator\\queries\\orderingqueries\\getorderingquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E8D11E63-208D-42EE-A117-AE6AC7D90D95}|Services\\Order\\Core\\MultiShop.Order.Application\\MultiShop.Order.Application.csproj|solutionrelative:services\\order\\core\\multishop.order.application\\features\\mediator\\queries\\orderingqueries\\getorderingquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E8D11E63-208D-42EE-A117-AE6AC7D90D95}|Services\\Order\\Core\\MultiShop.Order.Application\\MultiShop.Order.Application.csproj|c:\\users\\etimad\\desktop\\multishop\\multishop\\services\\order\\core\\multishop.order.application\\features\\mediator\\results\\orderingresults\\getorderingbyidqueryresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E8D11E63-208D-42EE-A117-AE6AC7D90D95}|Services\\Order\\Core\\MultiShop.Order.Application\\MultiShop.Order.Application.csproj|solutionrelative:services\\order\\core\\multishop.order.application\\features\\mediator\\results\\orderingresults\\getorderingbyidqueryresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E8D11E63-208D-42EE-A117-AE6AC7D90D95}|Services\\Order\\Core\\MultiShop.Order.Application\\MultiShop.Order.Application.csproj|c:\\users\\etimad\\desktop\\multishop\\multishop\\services\\order\\core\\multishop.order.application\\features\\mediator\\handlers\\orderinghandlers\\getorderingbyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E8D11E63-208D-42EE-A117-AE6AC7D90D95}|Services\\Order\\Core\\MultiShop.Order.Application\\MultiShop.Order.Application.csproj|solutionrelative:services\\order\\core\\multishop.order.application\\features\\mediator\\handlers\\orderinghandlers\\getorderingbyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E8D11E63-208D-42EE-A117-AE6AC7D90D95}|Services\\Order\\Core\\MultiShop.Order.Application\\MultiShop.Order.Application.csproj|c:\\users\\etimad\\desktop\\multishop\\multishop\\services\\order\\core\\multishop.order.application\\features\\mediator\\queries\\orderingqueries\\getorderingbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E8D11E63-208D-42EE-A117-AE6AC7D90D95}|Services\\Order\\Core\\MultiShop.Order.Application\\MultiShop.Order.Application.csproj|solutionrelative:services\\order\\core\\multishop.order.application\\features\\mediator\\queries\\orderingqueries\\getorderingbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{96FCD989-4ADD-4827-83A2-8F770680D3ED}|Frontends\\MultiShop.WebUI\\MultiShop.WebUI.csproj|c:\\users\\etimad\\desktop\\multishop\\multishop\\frontends\\multishop.webui\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{96FCD989-4ADD-4827-83A2-8F770680D3ED}|Frontends\\MultiShop.WebUI\\MultiShop.WebUI.csproj|solutionrelative:frontends\\multishop.webui\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,132 +34,54 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "OrderingRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Etimad\\Desktop\\MultiShop\\MultiShop\\Services\\Order\\Infrastructure\\MultiShop.Order.Persistence\\Repositories\\OrderingRepository.cs",
-              "RelativeDocumentMoniker": "Services\\Order\\Infrastructure\\MultiShop.Order.Persistence\\Repositories\\OrderingRepository.cs",
-              "ToolTip": "C:\\Users\\Etimad\\Desktop\\MultiShop\\MultiShop\\Services\\Order\\Infrastructure\\MultiShop.Order.Persistence\\Repositories\\OrderingRepository.cs",
-              "RelativeToolTip": "Services\\Order\\Infrastructure\\MultiShop.Order.Persistence\\Repositories\\OrderingRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T10:22:54.223Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IOrderDetailRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Etimad\\Desktop\\MultiShop\\MultiShop\\Services\\Order\\Core\\MultiShop.Order.Application\\Interfaces\\IOrderDetailRepository.cs",
-              "RelativeDocumentMoniker": "Services\\Order\\Core\\MultiShop.Order.Application\\Interfaces\\IOrderDetailRepository.cs",
-              "ToolTip": "C:\\Users\\Etimad\\Desktop\\MultiShop\\MultiShop\\Services\\Order\\Core\\MultiShop.Order.Application\\Interfaces\\IOrderDetailRepository.cs",
-              "RelativeToolTip": "Services\\Order\\Core\\MultiShop.Order.Application\\Interfaces\\IOrderDetailRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T10:20:54.813Z",
+              "DocumentIndex": 0,
+              "Title": "SendMail.cshtml",
+              "DocumentMoniker": "C:\\Users\\Etimad\\Desktop\\MultiShop\\MultiShop\\Frontends\\MultiShop.WebUI\\Views\\Mail\\SendMail.cshtml",
+              "RelativeDocumentMoniker": "Frontends\\MultiShop.WebUI\\Views\\Mail\\SendMail.cshtml",
+              "ToolTip": "C:\\Users\\Etimad\\Desktop\\MultiShop\\MultiShop\\Frontends\\MultiShop.WebUI\\Views\\Mail\\SendMail.cshtml",
+              "RelativeToolTip": "Frontends\\MultiShop.WebUI\\Views\\Mail\\SendMail.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-17T06:49:05.144Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "IOrderingRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Etimad\\Desktop\\MultiShop\\MultiShop\\Services\\Order\\Core\\MultiShop.Order.Application\\Interfaces\\IOrderingRepository.cs",
-              "RelativeDocumentMoniker": "Services\\Order\\Core\\MultiShop.Order.Application\\Interfaces\\IOrderingRepository.cs",
-              "ToolTip": "C:\\Users\\Etimad\\Desktop\\MultiShop\\MultiShop\\Services\\Order\\Core\\MultiShop.Order.Application\\Interfaces\\IOrderingRepository.cs",
-              "RelativeToolTip": "Services\\Order\\Core\\MultiShop.Order.Application\\Interfaces\\IOrderingRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA5AAAA",
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Etimad\\Desktop\\MultiShop\\MultiShop\\Frontends\\MultiShop.WebUI\\appsettings.json",
+              "RelativeDocumentMoniker": "Frontends\\MultiShop.WebUI\\appsettings.json",
+              "ToolTip": "C:\\Users\\Etimad\\Desktop\\MultiShop\\MultiShop\\Frontends\\MultiShop.WebUI\\appsettings.json",
+              "RelativeToolTip": "Frontends\\MultiShop.WebUI\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-17T06:37:31.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MailRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Etimad\\Desktop\\MultiShop\\MultiShop\\Frontends\\MultiShop.WebUI\\Models\\MailRequest.cs",
+              "RelativeDocumentMoniker": "Frontends\\MultiShop.WebUI\\Models\\MailRequest.cs",
+              "ToolTip": "C:\\Users\\Etimad\\Desktop\\MultiShop\\MultiShop\\Frontends\\MultiShop.WebUI\\Models\\MailRequest.cs",
+              "RelativeToolTip": "Frontends\\MultiShop.WebUI\\Models\\MailRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T10:20:30.404Z",
+              "WhenOpened": "2025-02-15T08:38:44.757Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "GetOrderingByUserIdQuery.cs",
-              "DocumentMoniker": "C:\\Users\\Etimad\\Desktop\\MultiShop\\MultiShop\\Services\\Order\\Core\\MultiShop.Order.Application\\Features\\Mediator\\Queries\\OrderingQueries\\GetOrderingByUserIdQuery.cs",
-              "RelativeDocumentMoniker": "Services\\Order\\Core\\MultiShop.Order.Application\\Features\\Mediator\\Queries\\OrderingQueries\\GetOrderingByUserIdQuery.cs",
-              "ToolTip": "C:\\Users\\Etimad\\Desktop\\MultiShop\\MultiShop\\Services\\Order\\Core\\MultiShop.Order.Application\\Features\\Mediator\\Queries\\OrderingQueries\\GetOrderingByUserIdQuery.cs",
-              "RelativeToolTip": "Services\\Order\\Core\\MultiShop.Order.Application\\Features\\Mediator\\Queries\\OrderingQueries\\GetOrderingByUserIdQuery.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA0AAAAyAAAA",
+              "Title": "MailController.cs",
+              "DocumentMoniker": "C:\\Users\\Etimad\\Desktop\\MultiShop\\MultiShop\\Frontends\\MultiShop.WebUI\\Controllers\\MailController.cs",
+              "RelativeDocumentMoniker": "Frontends\\MultiShop.WebUI\\Controllers\\MailController.cs",
+              "ToolTip": "C:\\Users\\Etimad\\Desktop\\MultiShop\\MultiShop\\Frontends\\MultiShop.WebUI\\Controllers\\MailController.cs",
+              "RelativeToolTip": "Frontends\\MultiShop.WebUI\\Controllers\\MailController.cs",
+              "ViewState": "AQIAAAkAAADAmZmZmZkdwBEAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T10:13:18.841Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "GetOrderingByUserIdQueryHandler.cs",
-              "DocumentMoniker": "C:\\Users\\Etimad\\Desktop\\MultiShop\\MultiShop\\Services\\Order\\Core\\MultiShop.Order.Application\\Features\\Mediator\\Handlers\\OrderingHandlers\\GetOrderingByUserIdQueryHandler.cs",
-              "RelativeDocumentMoniker": "Services\\Order\\Core\\MultiShop.Order.Application\\Features\\Mediator\\Handlers\\OrderingHandlers\\GetOrderingByUserIdQueryHandler.cs",
-              "ToolTip": "C:\\Users\\Etimad\\Desktop\\MultiShop\\MultiShop\\Services\\Order\\Core\\MultiShop.Order.Application\\Features\\Mediator\\Handlers\\OrderingHandlers\\GetOrderingByUserIdQueryHandler.cs",
-              "RelativeToolTip": "Services\\Order\\Core\\MultiShop.Order.Application\\Features\\Mediator\\Handlers\\OrderingHandlers\\GetOrderingByUserIdQueryHandler.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAlwBYAAAA+AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T10:10:09.944Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "GetOrderingQuery.cs",
-              "DocumentMoniker": "C:\\Users\\Etimad\\Desktop\\MultiShop\\MultiShop\\Services\\Order\\Core\\MultiShop.Order.Application\\Features\\Mediator\\Queries\\OrderingQueries\\GetOrderingQuery.cs",
-              "RelativeDocumentMoniker": "Services\\Order\\Core\\MultiShop.Order.Application\\Features\\Mediator\\Queries\\OrderingQueries\\GetOrderingQuery.cs",
-              "ToolTip": "C:\\Users\\Etimad\\Desktop\\MultiShop\\MultiShop\\Services\\Order\\Core\\MultiShop.Order.Application\\Features\\Mediator\\Queries\\OrderingQueries\\GetOrderingQuery.cs",
-              "RelativeToolTip": "Services\\Order\\Core\\MultiShop.Order.Application\\Features\\Mediator\\Queries\\OrderingQueries\\GetOrderingQuery.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T10:13:36.884Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "GetOrderingByUserIdQueryResult.cs",
-              "DocumentMoniker": "C:\\Users\\Etimad\\Desktop\\MultiShop\\MultiShop\\Services\\Order\\Core\\MultiShop.Order.Application\\Features\\Mediator\\Results\\OrderingResults\\GetOrderingByUserIdQueryResult.cs",
-              "RelativeDocumentMoniker": "Services\\Order\\Core\\MultiShop.Order.Application\\Features\\Mediator\\Results\\OrderingResults\\GetOrderingByUserIdQueryResult.cs",
-              "ToolTip": "C:\\Users\\Etimad\\Desktop\\MultiShop\\MultiShop\\Services\\Order\\Core\\MultiShop.Order.Application\\Features\\Mediator\\Results\\OrderingResults\\GetOrderingByUserIdQueryResult.cs",
-              "RelativeToolTip": "Services\\Order\\Core\\MultiShop.Order.Application\\Features\\Mediator\\Results\\OrderingResults\\GetOrderingByUserIdQueryResult.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T10:12:56.371Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "GetOrderingByIdQueryHandler.cs",
-              "DocumentMoniker": "C:\\Users\\Etimad\\Desktop\\MultiShop\\MultiShop\\Services\\Order\\Core\\MultiShop.Order.Application\\Features\\Mediator\\Handlers\\OrderingHandlers\\GetOrderingByIdQueryHandler.cs",
-              "RelativeDocumentMoniker": "Services\\Order\\Core\\MultiShop.Order.Application\\Features\\Mediator\\Handlers\\OrderingHandlers\\GetOrderingByIdQueryHandler.cs",
-              "ToolTip": "C:\\Users\\Etimad\\Desktop\\MultiShop\\MultiShop\\Services\\Order\\Core\\MultiShop.Order.Application\\Features\\Mediator\\Handlers\\OrderingHandlers\\GetOrderingByIdQueryHandler.cs",
-              "RelativeToolTip": "Services\\Order\\Core\\MultiShop.Order.Application\\Features\\Mediator\\Handlers\\OrderingHandlers\\GetOrderingByIdQueryHandler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T10:10:28.771Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "GetOrderingByIdQueryResult.cs",
-              "DocumentMoniker": "C:\\Users\\Etimad\\Desktop\\MultiShop\\MultiShop\\Services\\Order\\Core\\MultiShop.Order.Application\\Features\\Mediator\\Results\\OrderingResults\\GetOrderingByIdQueryResult.cs",
-              "RelativeDocumentMoniker": "Services\\Order\\Core\\MultiShop.Order.Application\\Features\\Mediator\\Results\\OrderingResults\\GetOrderingByIdQueryResult.cs",
-              "ToolTip": "C:\\Users\\Etimad\\Desktop\\MultiShop\\MultiShop\\Services\\Order\\Core\\MultiShop.Order.Application\\Features\\Mediator\\Results\\OrderingResults\\GetOrderingByIdQueryResult.cs",
-              "RelativeToolTip": "Services\\Order\\Core\\MultiShop.Order.Application\\Features\\Mediator\\Results\\OrderingResults\\GetOrderingByIdQueryResult.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T10:07:05.112Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "GetOrderingByIdQuery.cs",
-              "DocumentMoniker": "C:\\Users\\Etimad\\Desktop\\MultiShop\\MultiShop\\Services\\Order\\Core\\MultiShop.Order.Application\\Features\\Mediator\\Queries\\OrderingQueries\\GetOrderingByIdQuery.cs",
-              "RelativeDocumentMoniker": "Services\\Order\\Core\\MultiShop.Order.Application\\Features\\Mediator\\Queries\\OrderingQueries\\GetOrderingByIdQuery.cs",
-              "ToolTip": "C:\\Users\\Etimad\\Desktop\\MultiShop\\MultiShop\\Services\\Order\\Core\\MultiShop.Order.Application\\Features\\Mediator\\Queries\\OrderingQueries\\GetOrderingByIdQuery.cs",
-              "RelativeToolTip": "Services\\Order\\Core\\MultiShop.Order.Application\\Features\\Mediator\\Queries\\OrderingQueries\\GetOrderingByIdQuery.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T10:08:36.309Z",
+              "WhenOpened": "2025-02-15T08:35:59.007Z",
               "EditorCaption": ""
             }
           ]
